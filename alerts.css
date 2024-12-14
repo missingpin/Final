@@ -1,0 +1,34 @@
+.header{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 3vw;
+}
+.table {
+    width: 90%;
+    margin: 20px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.table thead {
+    background-color: #11101D;
+    color: white;
+    font-size: 14px;
+}
+label {
+    margin-left: 10px;
+    display: block;
+}
+.table-row {
+    text-align: left;
+}
+.table td, .table th {
+    padding: 8px;
+    font-size: 12px;
+}
+.table td {
+    text-align: left;
+    vertical-align: middle;
+}
+.thead {
+    background-color: #11101D;
+}

@@ -1,0 +1,68 @@
+.header{
+    text-align: center;
+    margin-top: 120px;
+}
+.table {
+    width: 100%;
+    margin: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.table thead {
+    background-color: #11101D;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+label {
+    margin-left: 10px;
+    display: block;
+}
+.table-row {
+    text-align: left;
+}
+.table td, .table th {
+    padding: 8px;
+    font-size: 12px;
+}
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.thead {
+    background-color: #11101D;
+}
+.search-input {
+    height: 30px;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 900px;
+}
+@media screen and (max-width: 800px) {
+    .header {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .table {
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .table thead {
+        font-size: 10px;
+    }
+
+    .table td, .table th {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .search-input {
+        font-size: 10px;
+        width: 160px;
+    }
+}

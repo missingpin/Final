@@ -1,0 +1,76 @@
+
+.header{
+  text-align: center;
+  margin-top: 7%;
+}
+.table thead {
+    background-color: #11101D;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table tbody {
+    background-color: white;
+}
+.table td, .table th {
+    padding: 8px;
+    font-size: 12px;
+}
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.thead {
+    background-color: #11101D;
+}
+.Table-List{
+    margin-top: 20px;
+    color: #000000;
+    text-align: center;
+}
+.contents{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    width: 100%;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.table-info{
+    color: #ffffff;
+    background-color: #000000;
+    text-indent: 50px;
+}
+.test{
+    background-color: #ffffff;
+    color: #000000;
+    text-indent: 50px;
+}
+.logout{
+    padding-left: 10px;
+}
+.table{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.btn.btn-success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.status-approved {
+    color: rgb(0, 255, 13);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+.status-pending {
+    color: rgb(229, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+}

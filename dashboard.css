@@ -1,0 +1,294 @@
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 3vw;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    padding-left: 1vw;
+    align-items: flex-start;
+}
+
+.recent-activities-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 145px;
+    margin-right: 40px;
+    width: 22vw;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recent-activities-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.recent-activities-content {
+    font-size: 14px;
+}
+
+.recent-activities-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recent-activities-content li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.frame {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 15px;
+    margin-top: 3%;
+    margin-left: 7px;
+    width: 160px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border-bottom: 3px solid;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.total-products {
+    border-color: #001D6C;
+}
+
+.total-categories {
+    border-color: #D2691E;
+}
+
+.overall-quantity {
+    border-color: #228B22;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.header-text {
+    position: absolute;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 9px;
+}
+
+.number {
+    position:absolute;
+    margin-left: 125px;
+    font-weight: 450;
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: end;
+}
+
+.container i{
+    margin-left: 12px;
+    margin-top: 48px;
+    font-size: 65px;
+    opacity: 0.6;
+}
+
+.status-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+h2.stock-info-header {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+canvas {
+    margin-left: 5px;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.custom-labels {
+    margin-bottom: 40px;
+    display: flex;
+    font-size: 9px;
+}
+
+.custom-label {
+    text-align:start;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.label-title {
+    margin-bottom: 8px;
+}
+
+.label-value {
+    font-size: 10px;
+}
+
+.color-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 1px;
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .recent-activities-box {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .frame {
+        width: 200px;
+        height: 90px;
+    }
+
+    .number {
+        margin-left: 90px;
+        font-size: 14px;
+    }
+
+    .status-box {
+        width: 260px;
+        height: 200px;
+        margin-left: 10px;
+    }
+
+    .container i {
+        margin-left: 5px;
+        margin-top: 30px;
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 10%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        padding-left: 15px;
+        gap: 15px;
+    }
+
+    .recent-activities-header {
+        font-size: 50px;
+        margin-bottom: 8px;
+    }
+
+    .recent-activities-box {
+        width: 1990px;
+        margin-top: 50px;
+    }
+
+    .frame {
+        width: 130px;
+        height: 60px;
+        padding: 6px 12px;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .status-box {
+        width: 300px;
+        height: 230px;
+        margin-left: 10px;
+    }
+
+    h2.stock-info-header {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+    canvas {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .custom-labels {
+        font-size: 8px;
+    }
+
+    .custom-label {
+        margin-left: 15px;
+    }
+
+    .label-title {
+        margin-bottom: 5px;
+    }
+
+    .label-value {
+        font-size: 9px;
+    }
+
+    .color-indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    .container i {
+        margin-left: 5px;
+        margin-top: 25px;
+        font-size: 40px;
+        opacity: 0.7;
+    }
+
+    .header-text {
+        font-size: 8px;
+        margin-bottom: 20px;
+    }
+
+    .number {
+        font-size: 14px;
+        margin-left: 85px;
+        margin-top: 4px;
+    }
+}

@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f5; /* Optional background for better aesthetics */
+}
+
+.profile-container {    
+    max-width: 800px;
+    text-align: center;
+}
+
+.profile-container h2 {
+    color: #3949ab;
+}
+
+.profile-card {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-right: 2px solid #e0e0e0;
+    text-align: center;
+}
+.profile-container .profile-card .left-section p {
+    margin-top: 20px;
+}
+.right-section {
+    flex: 2;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.left-section h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.info-box {
+    margin-bottom: 20px;
+}
+
+.info-box h4 {
+    margin-bottom: 10px;
+    color: #3949ab;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table td {
+    padding: 5px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.infotable {
+    width: 100%;
+    border-collapse: separate; /* Separate borders to allow spacing */
+    border-spacing: 0 10px; /* Add vertical space between rows */
+}
+
+.infotable td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Container for the entire form (flex layout) */
+.edit-profile-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.edit-profile-title {
+    font-size: 24px; /* Set font size */
+    color: #000003; /* Set text color */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some space below the title */
+}
+
+/* Left-side profile section */
+.left-side-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content in the column */
+    justify-content: center; /* Vertically center the content */
+    margin-right: 30px;
+    width: 250px;
+    text-align: center; /* Ensure text is centered inside the left-side form */
+}
+
+/* Profile picture container with the pencil icon */
+.profile-picture-container {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the profile picture and the pencil icon */
+    align-items: center; /* Horizontally center the profile picture and the pencil icon */
+}
+
+/* Profile picture style */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the profile picture fits the container */
+}
+
+/* Pencil icon for editing */
+.edit-icon {
+    position: absolute; /* Position the pencil icon relative to the profile picture container */
+    bottom: 5px; /* Position 5px from the bottom */
+    right: 5px; /* Position 5px from the right */
+    font-size: 20px; /* Icon size */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Make it circular */
+    padding: 5px;
+    cursor: pointer; /* Indicate the icon is clickable */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* File input for new profile picture */
+#profile {
+    display: none; /* Hidden by default */
+}
+
+/* Image preview and crop image */
+#imagePreviewContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Canvas for the cropped image */
+#canvas {
+    display: none;
+}
+
+#mi {
+    width: 50px; /* Set a fixed width for single character input */
+}
+
+/* Styling for form inputs and labels */
+.form-group {
+    margin-bottom: 15px;
+    width: 300px; /* Adjust form width */
+}
+/* Success or Error Message */
+#successMessage, .alert-danger {
+    position: fixed; /* Fixed position to stick at the top */
+    top: 0; /* Stick to the top of the page */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to exactly center */
+    z-index: 9999; /* Ensure it's above all other content */
+    width: 100%; /* Make it full width */
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Optional: Styling for success messages */
+#successMessage {
+    background-color: #4caf50; /* Green background for success */
+    color: white; /* White text */
+}
+
+/* Optional: Styling for error messages */
+.alert-danger {
+    background-color: #f44336; /* Red background for error */
+    color: white; /* White text */
+}

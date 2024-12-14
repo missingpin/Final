@@ -1,0 +1,87 @@
+.header{
+    text-align: center;
+    margin-top: 7%;
+}
+.main-header{
+    text-align: center;
+    margin-top: 7%;
+}
+.recent-activities-box{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 125px;
+    margin-right: 40px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+.recent-activities-content{
+    margin-left: 10px;
+}
+#myChart{
+    position: relative;
+    top: 20px;
+    margin-left: 90px;
+}
+.return-container{
+    margin-left: 90px;
+}
+.table {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.table td, .table th {
+    padding: 8px;
+    font-size: 12px;
+}
+
+.table thead {
+    background-color: #11101D;
+    color: white;
+    font-size: 14px;
+}
+
+.table tbody {
+    background-color: white;
+}
+.graph-header{
+    margin-left: 100px;
+    font-size: 25px;
+}
+.sale-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    padding-left: 1vw;
+    align-items: flex-start;
+}
+.sale-container { 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; border-radius: 5px; 
+} 
+.total-sale-day { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.header-text { 
+    font-size: 1.0rem; 
+    margin-bottom: 10px; 
+} .number { 
+    font-size: 2rem; color: #28a745; 
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
